@@ -1,0 +1,138 @@
+body{
+	font: 13px Tahoma;
+	background-color: white;
+	min-width: 1000px;
+	background-image: url(Images/back.png);
+}
+#header {
+position: relative;
+width: 720px;
+
+	height: 60px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: #009688;
+	color: white;
+	text-shadow: 21px 21px 10px grey;
+	margin-left: 50px;
+	box-shadow: 15px 15px 10px grey;
+}
+
+#stack{
+	position: absolute;
+	top:0px;
+}
+
+#header1{
+	margin-left: 30px;
+	}
+#header2{
+	margin-left: 30px;
+}
+
+
+#header3{
+	margin-left: 30px;
+}
+
+#logos{
+	margin-left: 30px;
+}
+#image2{
+	opacity: 0.5;
+}
+#image2:hover{
+	opacity: 1;
+}
+#image3{
+	opacity: 0.5;
+}
+#image3:hover{
+	opacity: 1;
+}
+
+
+#image{
+	position: absolute;
+	border-color: black;
+	box-shadow: 21px 21px 10px grey;
+	margin-left: 30px;
+	border-radius: 20px;
+}	
+#wrapper{
+	position: relative;
+	left:300px;
+	top:-10px;
+}
+#imagewrapper{
+	margin-top: 30px;
+	padding:10px 10px 10px 10px;
+	border: 0px solid black;
+	width: 750px;
+}
+
+#short_info{
+	background-color: white;
+	margin-left: 30px;
+	margin-bottom: 70px;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 10px;
+	width: 330px;
+	box-shadow: 15px 15px 10px grey;
+}
+
+#main_text{
+	background-color: white;
+	margin-left: 30px;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	border-radius: 10px;
+	padding: 10px;
+	margin-right: 400px;
+	box-shadow: 15px 15px 10px grey;
+}
+p{
+	text-indent: 20px;
+	line-height: 18px;
+	word-spacing: 0px;
+	letter-spacing: 0px; 
+}
+ul{ color: black ;
+	list-style: inside url(arrow.png);
+}
+ul li{
+	color: purple;
+	border: 3px solid #000000;
+}
+
+.through{
+	text-decoration: line-through;
+}
+
+.span{
+font-weight: bold;
+
+}
+.tick{
+	color: green;
+}
+.cross{
+	color: red;
+}
+.italic{
+	font-style: italic;
+}
+.underline{
+	text-decoration: underline;
+}
+
+#table{
+	background-color: white;
+	border-radius: 10px;
+	border: 1.5px solid;
+	padding: 10px;
+	margin-left: 30px;
+	margin-bottom: 70px;
+	width: 550px;
+	box-shadow: 15px 15px 10px grey;
